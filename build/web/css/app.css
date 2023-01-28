@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Kurale', serif;
+}
+/* Globales */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    background-size: cover;
+    display: block;
+}
+
+/* resto */
+.nombreSitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 75px;
+}
+.containerNav{
+    border: .5px solid #79B3F9;
+}
+.navPrincipal {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero {
+    background-image: url(../img/cyd.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+.hora {
+    background-image: url(../img/horario.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.categorias a:hover{
+    background-color: #479be9;
+    color: white    ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.categorias2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.categorias2 a:hover{
+    background-color: #479be9;
+    color: rgb(255, 255, 255)    ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.clubes a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.tabla {
+    display: flex;
+
+}
